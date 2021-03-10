@@ -26,7 +26,7 @@ Monet-styled-dataset
 │   └── image123.jpeg
 │   └── --------------------  
 │   
-│── Autoencoder-Baseline-mit-optuna.ipynb      - this notebook contains  python scripts with visualisation(can be run driectly in Jupyter notebook/IDE)
+│── Autoencoder-Baseline-mit-optuna.ipynb - this notebook contains  python scripts with visualisation
 │   
 ├──  autoencoder_best_model.h5       - this model can be used directly for converting landscape image to paintings.
 
