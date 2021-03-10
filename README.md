@@ -1,45 +1,36 @@
 # Domain-Adaptation-Using-Convolutional-AutoEncoder
-# Concept Detection in Medical images using Xception model
-In this repository, we implemented our paper(http://ceur-ws.org/Vol-2696/paper_109.pdf) used to solve the ImageClef Concept dection task 2020. 
+In this repository, I implemented the domain Adaptation problem in Manet Dataset using Convolutional Autoencoder.
+The basline borrows heavily from the following Github Link(https://bit.ly/3evvN9U) and youtube page(https://bit.ly/3bzUvEn).
 
 ## Table of contents
 * [Task Description](#TaskDescription)
 * [Installation](#Installation)
 * [Usage](#Usage)
 ## Task Description
-The dataset consist of 56,629 Training images and 14159 validation images.
-The test dataset consists of 10,000 images.
-The task was to predict concepts in medical Images
-```bash
-ROCO_CLEF_41341 C0033785;C0035561
-```
+The dataset consist of Paired landscape and Monet-Stylized image from kaggle-set A(https://bit.ly/3l33Wiy) training image pairs.
+The image pairs consists of image and the landscape paintings
+The task is to adapt images from one domain to another.
+
+Hyperparameter Optimisation was done using Optuna(https://optuna.org/)
+
 Folder structure
 --------------
 
-```
-├──  Training-set       - this folder contains training images.
-│   ├── ROCO_CLEF_41341.jpeg
-│   └── ROCO_CLEF_41342.jpeg
+Monet-styled-dataset
+├──  Original_A       - this folder contains landscapes images.
+│   ├── image1.jpeg
+│   └── image10.jpeg
 │   └── --------------------
 │
-│
-├── Validation-set      - this folder contains Validation images.
-│   ├── ROCO_CLEF_41345.jpeg
-│   └── ROCO_CLEF_41322.jpeg
+├── Original_B      - this folder contains monet styled painting images.
+│   ├── image2.jpeg
+│   └── image123.jpeg
 │   └── --------------------  
-│
-├── Test-set             - this folder contains Test images.
-│   └── ROCO_CLEF_41322.jpeg
-│   └── -------------------- 
-│── Python-scripts      - this folder contains  python files(can be run driectly in Jupyter notebook/IDE)
-│
-├──  training.py        - this file is used for training.
 │   
-├──  testing.py         - this file is used for testing.
+│── Autoencoder-Baseline-mit-optuna.ipynb      - this notebook contains  python scripts with visualisation(can be run driectly in Jupyter notebook/IDE)
 │   
-├──  evaluate-f1.py     - this file is used for evaluating F1 score.
-│  
-└── calculate_accuracy.py - this file is used for calculating accuracy score.
+├──  autoencoder_best_model.h5       - this model can be used directly for converting landscape image to paintings.
+
 
 ```
 ## Installation
@@ -50,12 +41,6 @@ Use the package manager [conda](https://anaconda.org/anaconda/conda) to install 
 conda env create --file requirements.yml
 ```
 
-## Usage
-To train this project:
-```
-$  python training.py -tr Training-Concepts.txt -vl Validation-Concepts.txt -c stringconcepts.csv --batch_size 32 -ep 1 -lr 1e-5 -imgz 150
-```
-To test the model on dataset:
 ```
 
 
