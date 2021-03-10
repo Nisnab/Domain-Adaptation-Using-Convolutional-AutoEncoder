@@ -5,7 +5,6 @@ The basline borrows heavily from the following Github Link(https://bit.ly/3evvN9
 ## Table of contents
 * [Task Description](#TaskDescription)
 * [Installation](#Installation)
-* [Usage](#Usage)
 ## Task Description
 The dataset consist of Paired landscape and Monet-Stylized image from kaggle-set A(https://bit.ly/3l33Wiy) training image pairs.
 The image pairs consists of image and the landscape paintings
