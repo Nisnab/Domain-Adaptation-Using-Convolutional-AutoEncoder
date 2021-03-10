@@ -40,9 +40,3 @@ Use the package manager [conda](https://anaconda.org/anaconda/conda) to install 
 ```bash
 conda env create --file requirements.yml
 ```
-
-```
-
-
-
-
