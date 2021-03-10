@@ -15,7 +15,7 @@ Hyperparameter Optimisation was done using Optuna(https://optuna.org/)
 
 Folder structure
 --------------
-
+```
 Monet-styled-dataset
 ├──  Original_A       - this folder contains landscapes images.
 │   ├── image1.jpeg
