@@ -1,6 +1,5 @@
 # Domain-Adaptation-Using-Convolutional-AutoEncoder
 In this repository, I implemented the domain Adaptation problem in Manet Dataset using Convolutional Autoencoder.
-The basline borrows heavily from the following Github Link(https://bit.ly/3evvN9U) and youtube page(https://bit.ly/3bzUvEn).
 
 ## Table of contents
 * [Task Description](#TaskDescription)
@@ -35,7 +34,13 @@ Monet-styled-dataset
 ## Installation
 
 Use the package manager [conda](https://anaconda.org/anaconda/conda) to install requirements.
+keras
+Optuna
 
 ```bash
 conda env create --file requirements.yml
 ```
+
+##Acknowledgments
+
+The basline borrows heavily from the following Github Link(https://bit.ly/3evvN9U) and youtube page(https://bit.ly/3bzUvEn).
