@@ -3,7 +3,7 @@ In this repository, I implemented the domain Adaptation problem in Manet Dataset
 
 ## Table of contents
 * [Task Description](#TaskDescription)
-* [Installation](#Installation)
+* [Requirements](#Requirements)
 ## Task Description
 The dataset consist of Paired landscape and Monet-Stylized image from kaggle-set A(https://bit.ly/3l33Wiy) training image pairs.
 The image pairs consists of image and the landscape paintings
