@@ -41,7 +41,7 @@ Monet-styled-dataset
 ```
 
 ## Requirements
-*Flask
+**Flask
 *Python
 *Keras
 *Optuna
