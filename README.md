@@ -17,17 +17,25 @@ Folder structure
 Monet-styled-dataset
 ├──  Original_A       - this folder contains landscapes images.
 │   ├── image1.jpeg
-│   └── image10.jpeg
 │   └── --------------------
 │
 ├── Original_B      - this folder contains monet styled painting images.
 │   ├── image2.jpeg
-│   └── image123.jpeg
 │   └── --------------------  
 │   
 │── Autoencoder-Baseline-mit-optuna.ipynb - this notebook contains  python scripts with visualisation
 │   
 ├──  autoencoder_best_model.h5       - this model can be used directly for converting landscape image to paintings.
+│
+├── model.py
+│
+└── app.py 
+│
+├──datasets
+│
+├──static
+└── templates
+
 
 
 ```
