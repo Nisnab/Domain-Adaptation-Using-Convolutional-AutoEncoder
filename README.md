@@ -5,6 +5,8 @@ In this repository, I implemented the domain Adaptation problem in Manet Dataset
 * [Task Description](#TaskDescription)
 * [Requirements](#Requirements)
 * [Instruction](#Instruction)
+* [Acknowledgement](#Acknowledgement)
+
 
 ## Task Description
 The dataset consist of Paired landscape and Monet-Stylized image from kaggle-set A(https://bit.ly/3l33Wiy) training image pairs.
@@ -57,6 +59,6 @@ pip install requirements.txt
 ```bash
 python app.py
 ```
-###Acknowledgments
+## Acknowledgment
 
 The basline borrows heavily from the following Github Link(https://bit.ly/3evvN9U) and youtube page(https://bit.ly/3bzUvEn).
