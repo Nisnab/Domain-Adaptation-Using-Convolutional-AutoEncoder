@@ -21,7 +21,7 @@ from tqdm import tqdm
 #Original einstein image for prediction as monalisa
 img_data3=[]
 
-img3=cv2.imread(r'/home/nisnab/workspace/ImageTranslation/Pix2Pix/dataset/facades/train/a/image1002.png', 1)
+img3=cv2.imread(r'./datasets/image1002.png', 1)
 img3 = cv2.cvtColor(img3, cv2.COLOR_BGR2RGB)#Changing BGR to RGB to show images in true colors
 img3=cv2.resize(img3,(SIZE, SIZE))
 img_data3.append(img_to_array(img3))

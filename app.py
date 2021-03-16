@@ -18,7 +18,7 @@ import pickle
 # def hello_world():
 #     return 'Hello World!'
 
-UPLOAD_FOLDER = "/home/nisnab/workspace/flaskproject/Flask/static/images/"
+UPLOAD_FOLDER = "./static/images/"
 
 url=""
 @app.route('/', methods=["GET", "POST"])
