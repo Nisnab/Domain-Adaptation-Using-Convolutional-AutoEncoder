@@ -41,10 +41,10 @@ Monet-styled-dataset
 ```
 
 ## Requirements
-**Flask
-*Python
-*Keras
-*Optuna
+-Flask
+-Python
+-Keras
+-Optuna
 
 
 ```bash
