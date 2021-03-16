@@ -31,14 +31,16 @@ Monet-styled-dataset
 
 
 ```
-## Installation
 
-Use the package manager [conda](https://anaconda.org/anaconda/conda) to install requirements.
-keras
-Optuna
+## Requirements
+*Flask
+*Python
+*Keras
+*Optuna
+
 
 ```bash
-conda env create --file requirements.yml
+pip install requirements.txt
 ```
 
 ###Acknowledgments
