@@ -41,16 +41,20 @@ Monet-styled-dataset
 ```
 
 ## Requirements
--Flask
--Python
--Keras
--Optuna
+1. Flask
+2. Python
+3. Keras
+4. Optuna
 
 
 ```bash
 pip install requirements.txt
 ```
 
+##Instruction
+```bash
+python app.py
+```
 ###Acknowledgments
 
 The basline borrows heavily from the following Github Link(https://bit.ly/3evvN9U) and youtube page(https://bit.ly/3bzUvEn).
